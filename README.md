@@ -7,12 +7,13 @@ This is a modified version of Taichi MPM written by [Y. Hu (MIT)](https://yuanmi
 
 
 # Install and Run Demo
-Tested on Ubuntu 16.04 and 18.04:
+Tested on Ubuntu 18.04:
+Added intel10th gen support which was causing build problems
 
 * Install
 
 	```bash
-	cd ~ ; wget https://github.com/haeriamin/MPM-NGF/raw/master/modifications/install.sh && chmod +x ./install.sh ; ./install.sh
+	cd ~ ; wget https://github.com/decanbay/MPM-NGF/raw/master/modifications/install.sh && chmod +x ./install.sh ; ./install.sh
 	```
 
 * Run demo
