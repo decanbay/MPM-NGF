@@ -7,13 +7,13 @@ cd ~
 sudo rm -fR taichi
 
 # sudo apt-get update -y
-sudo apt install gcc python3-pip
-sudo apt-get install -y python3-dev git build-essential cmake make g++ libx11-dev python3-pyqt5 libtbb2 libtbb-dev
-sudo pip3 install numpy scipy pybind11 Flask flask_cors gitpython yapf psutil pyqt5==5.14.0
+#sudo apt install gcc python3-pip
+#sudo apt-get install -y python3-dev git build-essential cmake make g++ libx11-dev python3-pyqt5 libtbb2 libtbb-dev
+#sudo pip3 install numpy scipy pybind11 Flask flask_cors gitpython yapf psutil pyqt5==5.14.0
 # sudo apt-get install -y python3-numpy python3-scipy python3-pybind11 python3-flask
 
-wget https://raw.githubusercontent.com/yuanming-hu/taichi/legacy/install.py
-python3 install.py
+wget https://raw.githubusercontent.com/decanbay/taichi/legacy/install.py
+python install.py
 
 source ~/.bashrc
 
